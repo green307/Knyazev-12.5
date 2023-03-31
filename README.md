@@ -15,4 +15,6 @@ where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and
 перечислите узкие места;
 оптимизируйте запрос: внесите корректировки по использованию операторов, при необходимости добавьте индексы.
 
+Операторы distinct, over (partition by c.customer_id, f.title), также исключить из выборки таблицу film
+
 ![alt text](https://github.com/green307/Knyazev-12.5/blob/d79f3c506e3adefb6e53e3b1f0263452000bc8f2/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B52.jpg)
